@@ -25,3 +25,6 @@
 <b>Pandas</b>: https://pandas.pydata.org/ <br>
 <b>Scipy</b>: https://docs.scipy.org/doc/scipy-1.2.1/reference/ <br>
 <b>StatsModels</b>: https://www.statsmodels.org/stable/index.html <br>
+
+### [Etc.]
+DB연결: http://pythonstudy.xyz/python/article/202-MySQL-%EC%BF%BC%EB%A6%AC
