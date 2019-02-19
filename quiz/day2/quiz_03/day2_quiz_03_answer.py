@@ -38,7 +38,7 @@ df.iloc[:3, 2:]
 df["sum"] = df.iloc[:, 2:7].sum(axis = 1)
 df.iloc[:3, 2:]
 
-#Q11. [max] 변수를 참고하여 
+#Q11. [max] 변수를 참고하여 일별 출발지점별
 #    교통량이 가장 많았던 일자와 그 출발지점을 기술하시오.
 df.head(2)
 df["max"].max()
@@ -53,7 +53,8 @@ df.loc[df["max"] == df["max"].max(), ["date", "StartPoint"]]
 # 3)
 df.loc[df["max"] == df["max"].max(), df.columns[:2]]
 
-#Q12. [sum] 변수를 참고하여 일 교통량이 가장 많았던 일자와 그 출발지점을 기술하시오.
+#Q12. [sum] 변수를 참고하여 일별 출발지점별 
+#     교통량이 가장 많았던 일자와 그 출발지점을 기술하시오.
 df.loc[df["sum"] == df["sum"].max(), df.columns[:2]]
 
 #Q13. 출발지점별 일 최대 교통량을 구하시오.
