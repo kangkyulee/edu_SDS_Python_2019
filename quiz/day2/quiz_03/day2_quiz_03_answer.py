@@ -34,7 +34,7 @@ df["max"] = df.iloc[:, 2:].max(axis = 1)
 df["max"] = df.iloc[:, 2:7].max(axis = 1)
 df.iloc[:3, 2:]
 
-#Q10. 일별 총 통행량을 "sum" 이라는 이름의 변수에 저장하시오.
+#Q10. 일별 출발지점별 총 통행량을 "sum" 이라는 이름의 변수에 저장하시오.
 df["sum"] = df.iloc[:, 2:7].sum(axis = 1)
 df.iloc[:3, 2:]
 
