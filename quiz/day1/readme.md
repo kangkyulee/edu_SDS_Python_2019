@@ -2,7 +2,7 @@
 
 ### Q1. pandas 모듈을 pd로 불러오시오.
 
-### Q2. "raiting_chocobar.csv"를 pandas 모듈을 활용하여 불러오고 객체 종류를 확인하시오
+### Q2. "rating_chocobar.csv"를 pandas 모듈을 활용하여 불러오고 객체 종류를 확인하시오
 (단, df 객체에 저장하시오)
 
 ### Q3. df의 첫 3개 row를 출력하시오
